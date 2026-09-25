@@ -1,0 +1,21 @@
+# ============================================================
+# GeekedTest 运行时依赖
+#
+# 安装:
+#   pip install -r requirements.txt
+#
+# 训练额外依赖见 requirements-train.txt
+# PyTorch 需按 CUDA 版本单独安装:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+# ============================================================
+
+# ---------- 核心运行时 ----------
+curl_cffi>=0.10.0
+pycryptodome>=3.21.0
+requests>=2.32.3
+
+# ---------- YOLO 推理 ----------
+onnxruntime>=1.20.0
+numpy>=1.26.4,<2.0
+opencv-python>=4.10.0.84
+Pillow>=10.0.0

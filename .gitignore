@@ -1,0 +1,19 @@
+.github
+
+.idea
+*.pyc
+*.har
+
+table
+
+rev.js
+rev2.js
+deobfuscated.js
+/reverse/gcaptcha4.js
+raw.js
+
+# 忽略 training 下所有子目录（dataset、runs、models、weights 等）
+training/*/
+# 保留 training/scripts 目录及其下所有文件
+!training/scripts/
+!training/scripts/**
